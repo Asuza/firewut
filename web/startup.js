@@ -1,6 +1,6 @@
-/* globals jQuery, AlertController, WutController */
+/* globals Zepto, AlertController, WutController */
 
-if (typeof jQuery === "function" && typeof WutController === "function" &&
+if (typeof Zepto === "function" && typeof WutController === "function" &&
     typeof AlertController === "function") {
     (function($, AlertController, WutController) {
         "use strict";
@@ -9,5 +9,5 @@ if (typeof jQuery === "function" && typeof WutController === "function" &&
                 wut = new WutController(message);
             wut.bindListeners();
         });
-    })(jQuery, AlertController, WutController);
+    })(Zepto, AlertController, WutController);
 }

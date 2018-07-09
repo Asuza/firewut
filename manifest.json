@@ -13,9 +13,6 @@
     "storage",
     "clipboardWrite"
   ],
-  "options_ui": {
-    "page": "options.html"
-  },
   "web_accessible_resources":[
     "fonts/*.woff2"
   ],
