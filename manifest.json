@@ -2,7 +2,7 @@
   "manifest_version": 2,
   "name": "wut.link extension",
   "description": "Extension to generate a wut.link url from your currently-viewed url",
-  "version": "0.2",
+  "version": "0.4",
 
   "permissions": [
     "http://www.wut.link/",
@@ -10,16 +10,19 @@
     "http://wut.link/",
     "https://wut.link/",
     "tabs",
-    "storage"
+    "storage",
+    "clipboardWrite"
   ],
   "web_accessible_resources":[
     "fonts/*.woff2"
   ],
   "browser_action": {
-    "default_icon": "wut.png",
+    "default_icon": "wut_logo_128px.png",
     "default_popup": "popup.html"
   },
   "icons": {
-    "128": "wut.png"
+    "128": "wut_logo_128px.png",
+    "64": "wut_logo_64px.png",
+    "32":  "wut_logo_32px.png"
   }
 }
