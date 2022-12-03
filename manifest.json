@@ -2,8 +2,7 @@
   "manifest_version": 2,
   "name": "wut.link extension",
   "description": "Extension to generate a wut.link url from your currently-viewed url",
-  "version": "0.4",
-
+  "version": "0.5",
   "permissions": [
     "http://www.wut.link/",
     "https://www.wut.link/",
